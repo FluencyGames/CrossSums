@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CrossSums - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP168.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/CrossSums.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\My Documents\dev\CrossSums\CrossSums.cpp"
+"C:\Documents and Settings\Administrator\My Documents\dev\CrossSums\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP168.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP169.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/CrossSums.pdb" /machine:I386 /out:"Release/CrossSums.exe" 
+".\Release\CellWnd.obj"
+".\Release\ChildFrm.obj"
+".\Release\CrossSums.obj"
+".\Release\CrossSumsDoc.obj"
+".\Release\CrossSumsEditor.obj"
+".\Release\CrossSumsView.obj"
+".\Release\Dlgs.obj"
+".\Release\MainFrm.obj"
+".\Release\PrefsColor.obj"
+".\Release\StdAfx.obj"
+".\Release\tables.obj"
+".\Release\CrossSums.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP169.tmp"
+<h3>Output Window</h3>
+Compiling...
+CrossSums.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CrossSums.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
